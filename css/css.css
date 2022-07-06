@@ -1,0 +1,3431 @@
+:root {
+  --mikrosTitlos: #D9D9D9;
+  --titlos: #ffffff;
+  --para: #D0D6F9;
+}
+
+body {
+  background-image: url("../assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>index-home-page<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.index-main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+
+.index-logo {
+  padding-left: 50px;
+}
+
+.index-menu-hr {
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 2px;
+  width: 37%;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+.index-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  backdrop-filter: blur(50px);
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  list-style-type: none;
+}
+
+.menu-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.menu-links-number{
+  font-weight: bold;
+}
+
+.link-hr {
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  visibility: hidden;
+}
+
+.index-container{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-top:17%;
+  padding-bottom: 3%;
+
+
+}
+.index-left-section{
+  width: 320px;
+  height: 382px;
+  color: white;
+}
+.index-left-section-h2{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight:100;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: var(--mikrosTitlos);
+
+
+}
+.index-left-section-h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 100px;
+  margin-top:0;
+  margin-bottom: 30px;
+  color: var(--titlos)
+
+}
+.index-left-section-p{
+  font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    word-spacing: 3px;
+    color: var(--para)
+    padding:0;
+    margin:0;
+  line-height: 1.2;
+    text-align: left;
+}
+
+.index-outer-right-section{
+  visibility: hidden;
+  background-color:rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  width:400px;
+  height:400px;
+}
+.index-outer-right-section:hover{
+visibility: visible;
+}
+.left-section-p{
+font-family: 'Barlow', sans-serif;
+margin-top:0;
+}
+
+.index-right-section{
+  margin:auto;
+visibility: visible;
+  margin-top:63px;
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background-color: white;
+}
+.index-right-section-paragraf{
+  font-size: 40px;
+  padding-top:42%;
+  text-align: center;
+  color:black;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>destination-moon<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.destination-moon-main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+.destination-moon-logo {
+  padding-left: 50px;
+}
+
+.destination-moon-menu-hr {
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 2px;
+  width: 37%;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+.destination-moon-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  backdrop-filter: blur(50px);
+}
+
+.destination-moon-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  list-style-type: none;
+}
+
+.destination-moon-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.destination-moon-links-number{
+  font-weight: bold;
+}
+
+.destination-moon-hr {
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  visibility: hidden;
+}
+.destination-moon-title{
+  color:#FFFFFF;
+  margin-left: 13%;
+  margin-top: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+      word-spacing:  4px;
+}
+.destination-moon-title-number{
+  color:grey;
+  font-weight: bolder;
+  margin-right:10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+
+}
+.destination-moon-container{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-top:3%;
+  padding-bottom: 3%;
+  padding-left: 40px;
+
+
+}
+.destination-moon-left-section{
+  width: 445px;
+  height: 445px;
+}
+
+
+
+
+.destination-moon-right-section{
+  width: 445px;
+  height: 472px;
+
+
+}
+.destination-moon-right-section-nav{
+  height: 43px;
+  width: 285px;
+
+
+}
+.destination-moon-right-section-nav-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  margin-top:0;
+  padding: 0;
+  justify-content: space-between;
+
+}
+.destination-moon-right-section-nav-list-items{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+
+}
+.destination-moon-right-section-nav-list-items-links{
+  text-decoration: none;
+  font-family: 'Barlow Condensed', sans-serif;
+
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color:white;
+  font-weight: 500;
+
+}
+
+.destination-moon-right-section-nav-list-items-hr{
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+margin-bottom:1px;
+padding: 0;
+margin-top:19px;
+width: 40px;
+}
+
+.destination-moon-right-section-header{
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 100px;
+  letter-spacing: 3px;
+  color: var(--titlos);
+  padding:0;
+  margin:0;
+  text-transform: uppercase;
+}
+.destination-moon-right-section-paragraf{
+font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-spacing: 3px;
+  color:var(--para);
+  padding:0;
+  margin:0;
+line-height: 1.6;
+  text-align: left;
+
+}
+
+.destination-moon-right-section-horizontal
+{
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 3px;
+margin-top:30px;
+}
+
+.destination-moon-right-section-bottomContainer{
+  padding:0;
+  margin:0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.destination-moon-right-section-bottomContainer-left-para1{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 14px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+.destination-moon-right-section-bottomContainer-left-para2{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 28px;
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+
+.destination-moon-right-section-bottomContainer-right-para1{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 14px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+.destination-moon-right-section-bottomContainer-right-para2{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 28px;
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+/*
+.destination-moon-outer-right-section{
+  visibility: hidden;
+  background-color:rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  width:400px;
+  height:400px;
+}
+.destination-moon-outer-right-section:hover{
+visibility: visible;
+}
+.destination-moon-section-p{
+font-family: 'Barlow', sans-serif;
+margin-top:0;
+}
+
+.destination-moon-right-section{
+  margin:auto;
+visibility: visible;
+  margin-top:63px;
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background-color: white;
+}
+.destination-moon-right-section-paragraf{
+  font-size: 40px;
+  padding-top:42%;
+  text-align: center;
+  color:black;
+}
+*/
+
+/*destination-moon*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>destination-Mars<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.destination-mars-main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+.destination-mars-logo {
+  padding-left: 50px;
+}
+
+.destination-mars-menu-hr {
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 2px;
+  width: 37%;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+.destination-mars-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  backdrop-filter: blur(50px);
+}
+
+.destination-mars-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  list-style-type: none;
+}
+
+.destination-mars-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.destination-mars-links-number{
+  font-weight: bold;
+}
+
+.destination-mars-hr {
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  visibility: hidden;
+}
+.destination-mars-title{
+  color:#FFFFFF;
+  margin-left: 13%;
+  margin-top: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+      word-spacing:  4px;
+}
+.destination-mars-title-number{
+  color:grey;
+  font-weight: bolder;
+  margin-right:10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+
+}
+.destination-mars-container{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-top:3%;
+  padding-bottom: 3%;
+  padding-left: 40px;
+
+
+}
+.destination-mars-left-section{
+  width: 445px;
+  height: 445px;
+}
+
+
+
+
+.destination-mars-right-section{
+  width: 445px;
+  height: 472px;
+
+
+}
+.destination-mars-right-section-nav{
+  height: 43px;
+  width: 285px;
+
+
+}
+.destination-mars-right-section-nav-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  margin-top:0;
+  padding: 0;
+  justify-content: space-between;
+
+}
+.destination-mars-right-section-nav-list-items{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+
+}
+.destination-mars-right-section-nav-list-items-links{
+  text-decoration: none;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color:white;
+  font-weight: 500;
+
+}
+
+.destination-mars-right-section-nav-list-items-hr{
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+margin-bottom:1px;
+padding: 0;
+margin-top:19px;
+width: 40px;
+}
+
+.destination-mars-right-section-header{
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 100px;
+  letter-spacing: 3px;
+  color: var(--titlos);
+  padding:0;
+  margin:0;
+  text-transform: uppercase;
+}
+.destination-mars-right-section-paragraf{
+font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-spacing: 3px;
+  color: var(--para);
+  padding:0;
+  margin:0;
+line-height: 1.6;
+  text-align: left;
+
+}
+
+.destination-mars-right-section-horizontal
+{
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 3px;
+margin-top:30px;
+}
+
+.destination-mars-right-section-bottomContainer{
+  padding:0;
+  margin:0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.destination-mars-right-section-bottomContainer-left-para1{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 14px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+.destination-mars-right-section-bottomContainer-left-para2{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 28px;
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+
+.destination-mars-right-section-bottomContainer-right-para1{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 14px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+.destination-mars-right-section-bottomContainer-right-para2{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 28px;
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>destination-Europa<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.destination-europa-main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+.destination-europa-logo {
+  padding-left: 50px;
+}
+
+.destination-europa-menu-hr {
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 2px;
+  width: 37%;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+.destination-europa-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  backdrop-filter: blur(50px);
+}
+
+.destination-europa-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  list-style-type: none;
+}
+
+.destination-europa-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.destination-europa-links-number{
+  font-weight: bold;
+}
+
+.destination-europa-hr {
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  visibility: hidden;
+}
+.destination-europa-title{
+  color:#FFFFFF;
+margin-left: 13%;
+  margin-top: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+      word-spacing:  4px;
+}
+.destination-europa-title-number{
+  color:grey;
+  font-weight: bolder;
+  margin-right:10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+
+}
+.destination-europa-container{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-top:3%;
+  padding-bottom: 3%;
+  padding-left: 40px;
+
+
+}
+.destination-europa-left-section{
+  width: 445px;
+  height: 445px;
+}
+
+
+
+
+.destination-europa-right-section{
+  width: 445px;
+  height: 472px;
+
+
+}
+.destination-europa-right-section-nav{
+  height: 43px;
+  width: 285px;
+
+
+}
+.destination-europa-right-section-nav-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  margin-top:0;
+  padding: 0;
+  justify-content: space-between;
+
+}
+.destination-europa-right-section-nav-list-items{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+
+}
+.destination-europa-right-section-nav-list-items-links{
+  text-decoration: none;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color:white;
+  font-weight: 500;
+
+}
+
+.destination-europa-right-section-nav-list-items-hr{
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+margin-bottom:1px;
+padding: 0;
+margin-top:19px;
+width: 40px;
+}
+
+.destination-europa-right-section-header{
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 100px;
+  letter-spacing: 3px;
+  color: var(--titlos);
+  padding:0;
+  margin:0;
+  text-transform: uppercase;
+}
+.destination-europa-right-section-paragraf{
+font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-spacing: 3px;
+  color: var(--para);
+  padding:0;
+  margin:0;
+line-height: 1.6;
+  text-align: left;
+
+}
+
+.destination-europa-right-section-horizontal
+{
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 3px;
+margin-top:30px;
+}
+
+.destination-europa-right-section-bottomContainer{
+  padding:0;
+  margin:0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.destination-europa-right-section-bottomContainer-left-para1{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 14px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+.destination-europa-right-section-bottomContainer-left-para2{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 28px;
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+
+.destination-europa-right-section-bottomContainer-right-para1{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 14px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+.destination-europa-right-section-bottomContainer-right-para2{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 28px;
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>destination-titan<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.destination-titan-main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+.destination-titan-logo {
+  padding-left: 50px;
+}
+
+.destination-titan-menu-hr {
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 2px;
+  width: 37%;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+.destination-titan-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  backdrop-filter: blur(50px);
+}
+
+.destination-titan-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  list-style-type: none;
+}
+
+.destination-titan-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.destination-titan-links-number{
+  font-weight: bold;
+}
+
+.destination-titan-hr {
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  visibility: hidden;
+}
+.destination-titan-title{
+  color:#FFFFFF;
+  margin-left: 13%;
+  margin-top: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+      word-spacing:  4px;
+}
+.destination-titan-title-number{
+  color:grey;
+  font-weight: bolder;
+  margin-right:10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+
+}
+.destination-titan-container{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-top:3%;
+  padding-bottom: 3%;
+  padding-left: 40px;
+
+
+}
+.destination-titan-left-section{
+  width: 445px;
+  height: 445px;
+}
+
+
+
+
+.destination-titan-right-section{
+  width: 445px;
+  height: 472px;
+
+
+}
+.destination-titan-right-section-nav{
+  height: 43px;
+  width: 285px;
+
+
+}
+.destination-titan-right-section-nav-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  margin-top:0;
+  padding: 0;
+  justify-content: space-between;
+
+}
+.destination-titan-right-section-nav-list-items{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+
+}
+.destination-titan-right-section-nav-list-items-links{
+  text-decoration: none;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size:20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color:white;
+  font-weight: 500;
+
+}
+
+.destination-titan-right-section-nav-list-items-hr{
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+margin-bottom:1px;
+padding: 0;
+margin-top:19px;
+width: 40px;
+}
+
+.destination-titan-right-section-header{
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 100px;
+  letter-spacing: 3px;
+  color: var(--titlos);
+  padding:0;
+  margin:0;
+  text-transform: uppercase;
+}
+.destination-titan-right-section-paragraf{
+font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-spacing: 3px;
+  color: var(--para);
+  padding:0;
+  margin:0;
+line-height: 1.6;
+  text-align: left;
+
+}
+
+.destination-titan-right-section-horizontal
+{
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 3px;
+margin-top:30px;
+}
+
+.destination-titan-right-section-bottomContainer{
+  padding:0;
+  margin:0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.destination-titan-right-section-bottomContainer-left-para1{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 14px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+.destination-titan-right-section-bottomContainer-left-para2{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 28px;
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+
+.destination-titan-right-section-bottomContainer-right-para1{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 14px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+.destination-titan-right-section-bottomContainer-right-para2{
+  padding:0;
+  margin:0;
+  margin-top:30px;
+  font-size: 28px;
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 2px;
+  color:white;
+  text-transform: uppercase;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>CREW-Commander<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.crew-commander-main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+.crew-commander-logo {
+  padding-left: 50px;
+}
+
+.crew-commander-menu-hr {
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 2px;
+  width: 37%;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+.crew-commander-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  backdrop-filter: blur(50px);
+}
+
+.crew-commander-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  list-style-type: none;
+}
+
+.crew-commander-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.crew-commander-links-number{
+  font-weight: bold;
+}
+
+.crew-commander-hr {
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  visibility: hidden;
+}
+.crew-commander-title{
+  color:#FFFFFF;
+  margin-left: 13%;
+  margin-top: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+      word-spacing:  4px;
+}
+.crew-commander-title-number{
+  color:grey;
+  font-weight: bolder;
+  margin-right:10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+
+}
+.crew-commander-container{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+
+height:500px;
+
+}
+.crew-commander-left-section{
+  width:500px;
+  /*height: 445px;*/
+  position: relative;
+  left:5%;
+}
+
+
+.crew-commander-left-section-h2{
+  font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    word-spacing: 3px;
+    color: var(--mikrosTitlos);
+    padding:0;
+    margin:0;
+
+
+    text-align: left;
+    opacity: 50%;
+}
+
+
+
+.crew-commander-left-section-header{
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 51px;
+  letter-spacing: 3px;
+  color: var(--titlos);
+  padding:0;
+  margin:0;
+  margin-top:20px;
+  text-transform: uppercase;
+    width:auto;
+}
+.crew-commander-left-section-paragraf{
+font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-spacing: 3px;
+  color: var(--para);
+  padding:0;
+  margin:0;
+  line-height: 1.6;
+  text-align: left;
+  width:auto;
+margin-top:40px;
+}
+
+
+
+.crew-commander-left-section-bottomContainer{
+  padding:0;
+  margin:0;
+  margin-top:120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:150px;
+  height:15px;
+
+}
+.crew-commander-left-section-bottomContainer-ball1{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+  margin
+}
+
+.crew-commander-left-section-bottomContainer-ball2{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.crew-commander-left-section-bottomContainer-ball3{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.crew-commander-left-section-bottomContainer-ball4{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.crew-commander-right-section{
+  width: 560px;
+  height: 700px;
+  position: relative;
+  bottom: 0;
+
+}
+.crew-commander-right-section-img{
+width:100%;
+height:100%;
+
+position: relative;
+bottom: 50px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>CREW-specialist<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.crew-specialist-main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+.crew-specialist-logo {
+  padding-left: 50px;
+}
+
+.crew-specialist-menu-hr {
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 2px;
+  width: 37%;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+.crew-specialist-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  backdrop-filter: blur(50px);
+}
+
+.crew-specialist-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  list-style-type: none;
+}
+
+.crew-specialist-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.crew-specialist-links-number{
+  font-weight: bold;
+}
+
+.crew-specialist-hr {
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  visibility: hidden;
+}
+.crew-specialist-title{
+  color:#FFFFFF;
+  margin-left: 13%;
+  margin-top: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+      word-spacing:  4px;
+}
+.crew-specialist-title-number{
+  color:grey;
+  font-weight: bolder;
+  margin-right:10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+
+}
+.crew-specialist-container{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+
+height:500px;
+
+}
+.crew-specialist-left-section{
+  position: relative;
+  left:5%;
+  height: 445px;
+}
+
+
+.crew-specialist-left-section-h2{
+  font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    word-spacing: 3px;
+    color: var(--mikrosTitlos);
+    padding:0;
+    margin:0;
+
+
+    text-align: left;
+    opacity: 50%;
+}
+
+
+
+.crew-specialist-left-section-header{
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 51px;
+  letter-spacing: 3px;
+  color: var(--titlos);
+  padding:0;
+  margin:0;
+  margin-top:20px;
+  text-transform: uppercase;
+
+}
+.crew-specialist-left-section-paragraf{
+font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-spacing: 3px;
+  color: var(--para);
+  padding:0;
+  margin:0;
+  line-height: 1.6;
+  text-align: left;
+  width:444px;
+margin-top:40px;
+}
+
+
+
+.crew-specialist-left-section-bottomContainer{
+  padding:0;
+  margin:0;
+  margin-top:105px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:150px;
+  height:15px;
+
+}
+.crew-specialist-left-section-bottomContainer-ball1{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+  margin
+}
+
+.crew-specialist-left-section-bottomContainer-ball2{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.crew-specialist-left-section-bottomContainer-ball3{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.crew-specialist-left-section-bottomContainer-ball4{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.crew-specialist-right-section{
+  width: 454px;
+  height: 654px;
+  position: relative;
+  bottom:0;
+}
+
+.crew-specialist-right-section-img{
+width:100%;
+height:100%;
+
+position: relative;
+bottom: 30px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>CREW-pilot<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.crew-pilot-main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+.crew-pilot-logo {
+  padding-left: 50px;
+}
+
+.crew-pilot-menu-hr {
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 2px;
+  width: 37%;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+.crew-pilot-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  backdrop-filter: blur(50px);
+}
+
+.crew-pilot-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  list-style-type: none;
+}
+
+.crew-pilot-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.crew-pilot-links-number{
+  font-weight: bold;
+}
+
+.crew-pilot-hr {
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  visibility: hidden;
+}
+.crew-pilot-title{
+  color:#FFFFFF;
+  margin-left: 13%;
+  margin-top: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+      word-spacing:  4px;
+}
+.crew-pilot-title-number{
+  color:grey;
+  font-weight: bolder;
+  margin-right:10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+
+}
+.crew-pilot-container{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+
+height:500px;
+
+}
+.crew-pilot-left-section{
+  position: relative;
+  left:4%;
+  height: 445px;
+}
+
+
+.crew-pilot-left-section-h2{
+  font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    word-spacing: 3px;
+    color: var(--mikrosTitlos);
+    padding:0;
+    margin:0;
+
+
+    text-align: left;
+    opacity: 50%;
+}
+
+
+
+.crew-pilot-left-section-header{
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 51px;
+  letter-spacing: 3px;
+  color: var(--titlos);
+  padding:0;
+  margin:0;
+  margin-top:20px;
+  text-transform: uppercase;
+
+}
+.crew-pilot-left-section-paragraf{
+font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-spacing: 3px;
+  color: var(--para);
+  padding:0;
+  margin:0;
+  line-height: 1.6;
+  text-align: left;
+  width:444px;
+margin-top:40px;
+}
+
+
+
+.crew-pilot-left-section-bottomContainer{
+  padding:0;
+  margin:0;
+  margin-top:105px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:150px;
+  height:15px;
+
+}
+.crew-pilot-left-section-bottomContainer-ball1{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+  margin
+}
+
+.crew-pilot-left-section-bottomContainer-ball2{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.crew-pilot-left-section-bottomContainer-ball3{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.crew-pilot-left-section-bottomContainer-ball4{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.crew-pilot-right-section{
+  width: 554px;
+  height: 681px;
+position: relative;
+bottom: 0;
+
+}
+
+.crew-pilot-right-section-img{
+width:100%;
+height:100%;
+position: relative;
+bottom: 50px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>CREW-pilot<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.crew-engineer-main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+.crew-engineer-logo {
+  padding-left: 50px;
+}
+
+.crew-engineer-menu-hr {
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 2px;
+  width: 37%;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+.crew-engineer-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  backdrop-filter: blur(50px);
+}
+
+.crew-engineer-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  list-style-type: none;
+}
+
+.crew-engineer-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.crew-engineer-links-number{
+  font-weight: bold;
+}
+
+.crew-engineer-hr {
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  visibility: hidden;
+}
+.crew-engineer-title{
+  color:#FFFFFF;
+  margin-left: 13%;
+  margin-top: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+      word-spacing:  4px;
+}
+.crew-engineer-title-number{
+  color:grey;
+  font-weight: bolder;
+  margin-right:10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+
+}
+.crew-engineer-container{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+
+height:500px;
+
+}
+.crew-engineer-left-section{
+position: relative;
+left:6%;
+  height: 445px;
+  width:500px;
+}
+
+
+.crew-engineer-left-section-h2{
+  font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    word-spacing: 3px;
+    color: var(--mikrosTitlos);
+    padding:0;
+    margin:0;
+
+
+    text-align: left;
+    opacity: 50%;
+}
+
+
+
+.crew-engineer-left-section-header{
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 51px;
+  letter-spacing: 3px;
+  color: var(--titlos);
+  padding:0;
+  margin:0;
+  margin-top:20px;
+  text-transform: uppercase;
+
+}
+.crew-engineer-left-section-paragraf{
+font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-spacing: 3px;
+  color: var(--para);
+  padding:0;
+  margin:0;
+  line-height: 1.6;
+  text-align: left;
+  width:auto;
+margin-top:40px;
+}
+
+
+
+.crew-engineer-left-section-bottomContainer{
+  padding:0;
+  margin:0;
+  margin-top:135px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:150px;
+  height:15px;
+
+}
+.crew-engineer-left-section-bottomContainer-ball1{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+  margin
+}
+
+.crew-engineer-left-section-bottomContainer-ball2{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.crew-engineer-left-section-bottomContainer-ball3{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.crew-engineer-left-section-bottomContainer-ball4{
+  width:15px;
+  height:15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.crew-engineer-right-section{
+  width: 615px;
+  height: 607px;
+position: relative;
+bottom:0;
+
+
+}
+
+.crew-engineer-right-section-img{
+width:100%;
+height:100%;
+position: relative;
+bottom:50px;
+
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>technology-vehicle<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.technology-vehicle-body{
+  background-image: url(../assets/technology/background-technology-desktop.jpg);
+
+}
+
+
+
+
+
+
+.technology-vehicle-main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+.technology-vehicle-logo {
+  padding-left: 50px;
+}
+
+.technology-vehicle-menu-hr {
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 2px;
+  width: 37%;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+.technology-vehicle-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  backdrop-filter: blur(50px);
+}
+
+.technology-vehicle-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  list-style-type: none;
+}
+
+.technology-vehicle-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.technology-vehicle-links-number{
+  font-weight: bold;
+}
+
+.technology-vehicle-hr {
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  visibility: hidden;
+}
+.technology-vehicle-title{
+  color:#FFFFFF;
+  margin-left: 13%;
+  margin-top: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+      word-spacing:  4px;
+}
+.technology-vehicle-title-number{
+  color:grey;
+  font-weight: bolder;
+  margin-right:10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.technology-vehicle-container{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+
+
+height:500px;
+
+}
+.technology-vehicle-left-section-menu{
+margin-left:10vw;
+}
+.technology-vehicle-left-section-menu-a{
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 40px;
+  display: block;
+  text-align: center;
+  padding:20px;
+width:40px;
+height:40px;
+border:1px solid white;
+  border-radius: 50px;
+  color:white;
+  margin-top:20px;
+}
+
+
+
+.technology-vehicle-left-section{
+  margin-top:170px;
+    margin-left:50px;
+  height: 445px;
+}
+
+
+.technology-vehicle-left-section-h2{
+  font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: var(--mikrosTitlos);
+    padding:0;
+    margin:0;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+
+.technology-vehicle-left-section-header{
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 47px;
+  letter-spacing: 3px;
+  color: var(--titlos);
+  padding:0;
+  margin:0;
+  margin-top:20px;
+  text-transform: uppercase;
+
+}
+.technology-vehicle-left-section-paragraf{
+font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-spacing: 3px;
+  color: var(--para);
+  padding:0;
+  margin:0;
+  line-height: 1.6;
+  text-align: left;
+  width:444px;
+margin-top:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.technology-vehicle-right-section{
+  width: 515px;
+  height: 527px;
+
+
+
+}
+
+.technology-vehicle-right-section-img{
+width:100%;
+height:100%;
+object-fit: contain;
+
+
+}
+
+.technology-vehicle-img-landscale{
+  display: none;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>technology-spaceport<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.technology-spaceport-body{
+  background-image: url(../assets/technology/background-technology-desktop.jpg);
+
+}
+
+
+.technology-spaceport-main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+.technology-spaceport-logo {
+  padding-left: 50px;
+}
+
+.technology-spaceport-menu-hr {
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 2px;
+  width: 37%;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+.technology-spaceport-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  backdrop-filter: blur(50px);
+}
+
+.technology-spaceport-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  list-style-type: none;
+}
+
+.technology-spaceport-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.technology-spaceport-links-number{
+  font-weight: bold;
+}
+
+.technology-spaceport-hr {
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  visibility: hidden;
+}
+.technology-spaceport-title{
+  color:#FFFFFF;
+  margin-left: 13%;
+  margin-top: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+      word-spacing:  4px;
+}
+.technology-spaceport-title-number{
+  color:grey;
+  font-weight: bolder;
+  margin-right:10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.technology-spaceport-container{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+
+
+height:500px;
+
+}
+.technology-spaceport-left-section-menu{
+margin-left:10vw;
+}
+.technology-spaceport-left-section-menu-a{
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 40px;
+  display: block;
+  text-align: center;
+  padding:20px;
+width:40px;
+height:40px;
+border:1px solid white;
+  border-radius: 50px;
+  color:white;
+  margin-top:20px;
+}
+
+
+
+.technology-spaceport-left-section{
+  margin-top:170px;
+    margin-left:50px;
+  height: 445px;
+}
+
+
+.technology-spaceport-left-section-h2{
+  font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color:var(--mikrosTitlos);
+    padding:0;
+    margin:0;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+
+.technology-spaceport-left-section-header{
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 51px;
+  letter-spacing: 3px;
+  color: var(--titlos);
+  padding:0;
+  margin:0;
+  margin-top:20px;
+  text-transform: uppercase;
+
+}
+.technology-spaceport-left-section-paragraf{
+font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-spacing: 3px;
+  color: var(--para);
+  padding:0;
+  margin:0;
+  line-height: 1.6;
+  text-align: left;
+  width:444px;
+margin-top:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.technology-spaceport-right-section{
+  width: 515px;
+  height: 527px;
+
+
+
+}
+
+.technology-spaceport-right-section-img{
+width:100%;
+height:100%;
+object-fit: cover;
+
+
+}
+.technology-spaceport-img-landscale{
+  display: none;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>technology-spaceport<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.technology-capsule-body{
+  background-image: url(../assets/technology/background-technology-desktop.jpg);
+
+}
+
+.technology-capsule-main-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+.technology-capsule-logo {
+  padding-left: 50px;
+}
+
+.technology-capsule-menu-hr {
+  border-style: none none solid none;
+  border-color: grey;
+  border-width: 2px;
+  width: 37%;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+.technology-capsule-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  backdrop-filter: blur(50px);
+}
+
+.technology-capsule-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  list-style-type: none;
+}
+
+.technology-capsule-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.technology-capsule-links-number{
+  font-weight: bold;
+}
+
+.technology-capsule-hr {
+  border-style: none none solid none;
+  border-color: white;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  visibility: hidden;
+}
+.technology-capsule-title{
+  color:#FFFFFF;
+  margin-left: 13%;
+  margin-top: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+      word-spacing:  4px;
+}
+.technology-capsule-title-number{
+  color:grey;
+  font-weight: bolder;
+  margin-right:10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.technology-capsule-container{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+
+
+height:500px;
+
+}
+.technology-capsule-left-section-menu{
+margin-left:10vw;
+}
+.technology-capsule-left-section-menu-a{
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 40px;
+  display: block;
+  text-align: center;
+  padding:20px;
+  width:40px;
+  height:40px;
+  border:1px solid white;
+  border-radius: 50px;
+  color:white;
+  margin-top:20px;
+}
+
+
+
+.technology-capsule-left-section{
+  margin-top:170px;
+    margin-left:50px;
+  height: 445px;
+}
+
+
+.technology-capsule-left-section-h2{
+  font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: var(--mikrosTitlos);
+    padding:0;
+    margin:0;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+
+.technology-capsule-left-section-header{
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 51px;
+  letter-spacing: 3px;
+  color: var(--titlos);
+  padding:0;
+  margin:0;
+  margin-top:20px;
+  text-transform: uppercase;
+
+}
+.technology-capsule-left-section-paragraf{
+font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-spacing: 3px;
+  color: var(--para);
+  padding:0;
+  margin:0;
+  line-height: 1.6;
+  text-align: left;
+  width:444px;
+margin-top:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.technology-capsule-right-section{
+  width: 515px;
+  height: 527px;
+
+
+
+}
+
+.technology-capsule-right-section-img{
+width:100%;
+height:100%;
+object-fit:contain;
+
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-adjustments-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.technology-capsule-img-landscale{
+  display: none;
+}
+.crew-commander-img-mobile, .crew-specialist-img-mobile, .crew-pilot-img-mobile, .crew-engineer-img-mobile{
+  display: none;
+}
+.crew-commander-hr-mobile,.crew-specialist-hr-mobile,.crew-pilot-hr-mobile,.crew-engineer-hr-mobile{
+  display:none;
+}
+.burger-menu-img{
+  display:none;
+}
+.burger-menu-close-img{
+  display: none;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>responsive<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+@media (max-width: 800px)
+{
+  .index-main-menu{
+    padding-top: 0;
+  }
+  .index-menu-hr{
+    display:none;
+  }
+  .index-container{
+    flex-direction: column;
+    padding-bottom: 0;
+    padding-top:90px;
+  }
+  .index-body{
+    background-image: url("../assets/home/background-home-tablet.jpg");
+  }
+  .index-left-section-h2 , .index-left-section-p, .index-left-section-h1{
+    text-align: center;
+  }
+.index-left-section-h2 {
+  color:var(--mikrosTitlos);
+}
+.index-left-section-p{
+color: var(--para);
+}
+.index-left-section-h1{
+  color:var(--titlos);
+}
+  .index-left-section{
+    width:450px;
+    height:334px;
+  }
+  .index-menu {
+    backdrop-filter: blur(50px);
+    background-color: rgba(255,255,255,0.03);
+  }
+
+  /*destinations*/
+  .destination-moon-main-menu, .destination-mars-main-menu, .destination-titan-main-menu, .destination-europa-main-menu{
+    padding-top:0;
+  }
+  .menu-links{
+    font-size: 14px;
+  }
+  .menu-links-number{
+    display:none;
+  }
+  .menu-items{
+    text-align: center;
+  }
+    .destination-moon-menu-hr, .destination-titan-menu-hr, .destination-mars-menu-hr, .destination-europa-menu-hr {
+      display:none;
+    }
+    .destination-moon-container, .destination-titan-container, .destination-mars-container, .destination-europa-container {
+        flex-direction: column;
+    }
+    .destination-moon-title, .destination-titan-title, .destination-mars-title, .destination-europa-title{
+      text-align: left;
+      padding: 0;
+      margin:0;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      margin-top:10px;
+      font-size: 20px;
+    }
+    .destination-moon-title-number, .destination-titan-title-number, .destination-mars-title-number, .destination-europa-title-number{
+      font-size: 20px;
+    }
+    .destination-moon-body, .destination-titan-body, .destination-mars-body, .destination-europa-body{
+          background-image: url("../assets/destination/background-destination-tablet.jpg")!important;
+    }
+    .destination-moon-container, .destination-titan-container, .destination-mars-container, .destination-europa-container{
+      padding:0;
+    }
+    .destination-moon-left-section, .destination-titan-left-section, .destination-mars-left-section, .destination-europa-left-section{
+        width:auto;
+        height:auto;
+        margin-bottom: 20px;
+    }
+    .destination-moon-img, .destination-titan-img, .destination-mars-img, .destination-europa-img{
+      width: 300px;
+      height:300px;
+    }
+
+      .destination-moon-right-section, .destination-titan-right-section,   .destination-mars-right-section,   .destination-europa-right-section{
+      text-align: center;
+      height: auto;
+    }
+    .destination-moon-right-section-nav, .destination-titan-right-section-nav, .destination-mars-right-section-nav, .destination-europa-right-section-nav{
+      margin: auto;
+      width:70%;
+    }
+    .destination-moon-right-section-nav-list, .destination-titan-right-section-nav-list, .destination-mars-right-section-nav-list, .destination-europa-right-section-nav-list{
+
+    }
+    .destination-moon-right-section-nav-list-items-links, .destination-titan-right-section-nav-list-items-links, .destination-mars-right-section-nav-list-items-links, .destination-europa-right-section-nav-list-items-links{
+      font-size: 16px;
+    }
+    .destination-moon-right-section-paragraf, .destination-titan-right-section-paragraf, .destination-mars-right-section-paragraf, .destination-europa-right-section-paragraf{
+      margin-top: 10px;
+      text-align: center;
+      font-size: 16px;
+      color: #D0D6F9;
+    }
+    .destination-moon-right-section, .destination-titan-right-section, .destination-mars-right-section, .destination-europa-right-section{
+      width: 80%;
+    }
+    .destination-moon-right-section-header, .destination-titan-right-section-header, .destination-titan-mars-section-header, .destination-europa-right-section-header{
+  font-size: 80px;
+  margin-top:10px;
+    }
+    .destination-moon-right-section-horizontal, .destination-titan-right-section-horizontal, .destination-mars-right-section-horizontal, .destination-europa-right-section-horizontal{
+      border-color:#383B4B;
+      width:100%;
+      border-width: 3px;
+    }
+    .destination-moon-right-section-bottomContainer-left, .destination-titan-right-section-bottomContainer-left, .destination-mars-right-section-bottomContainer-left, .destination-europa-right-section-bottomContainer-left{
+      padding-right: 20px;
+    }
+    .destination-moon-right-section-bottomContainer-right, .destination-titan-right-section-bottomContainer-right, .destination-mars-right-section-bottomContainer-right, .destination-europa-right-section-bottomContainer-right{
+      padding-left: 20px;
+    }
+  /*crew*/
+
+.crew-commander-main-menu, .crew-specialist-main-menu , .crew-pilot-main-menu, .crew-engineer-main-menu {
+  padding-top:0;
+}
+
+  .crew-commander-menu-hr, .crew-specialist-menu-hr, .crew-pilot-menu-hr, .crew-engineer-menu-hr   {
+    display:none;
+  }
+  .crew-commander-title, .crew-specialist-title, .crew-pilot-title, .crew-engineer-title{
+    text-align: left;
+    padding: 0;
+    margin:0;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    font-size: 20px;
+  }
+  .crew-commander-title-number, .crew-specialist-title-number, .crew-pilot-title-number, .crew-engineer-title-number{
+    font-size: 20px;
+  }
+  .crew-commander-body, .crew-specialist-body, .crew-pilot-body, .crew-engineer-body{
+        background-image: url("../assets/crew/background-crew-tablet.jpg")!important;
+  }
+
+
+  .crew-commander-container,  .crew-specialist-container,   .crew-pilot-container,   .crew-engineer-container{
+      flex-direction: column;
+      align-items: normal;
+      height:auto;
+      padding:0;
+      margin: 0;
+      left:0;
+  }
+
+  .crew-commander-left-section, .crew-specialist-left-section, .crew-pilot-left-section, .crew-engineer-left-section{
+    position: sticky;
+    left:0;
+    width: 65%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+height: auto;
+
+
+  }
+  .crew-commander-left-section-h2, .crew-specialist-left-section-h2, .crew-pilot-left-section-h2, .crew-engineer-left-section-h2{
+    margin-top:5px;
+    text-align: center;
+    font-size: 24px;
+    text-transform:uppercase;
+    letter-spacing: 0.1;
+  }
+  .crew-commander-left-section-header, .crew-specialist-left-section-header, .crew-pilot-left-section-header, .crew-engineer-left-section-header{
+    width: auto;
+    font-size: 40px;
+    margin-top:20px;
+    text-align: center;
+  }
+  .crew-commander-left-section-paragraf,.crew-specialist-left-section-paragraf, .crew-pilot-left-section-paragraf,.crew-engineer-left-section-paragraf{
+
+  width: auto;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 16px;
+    color: #D0D6F9;
+  }
+  .crew-commander-left-section-bottomContainer, .crew-pilot-left-section-bottomContainer, .crew-specialist-left-section-bottomContainer, .crew-engineer-left-section-bottomContainer{
+  margin-top: 40px;
+
+  }
+  .crew-commander-right-section, .crew-specialist-right-section, .crew-pilot-right-section, .crew-engineer-right-section{
+width: auto;
+height: auto;
+
+position: static;
+left:0;
+display: block;
+  }
+  .crew-commander-right-section-img{
+    display: block;
+  margin: auto;
+   width: 50%;
+   height:60%;
+   position: static;
+
+}
+.crew-specialist-right-section-img{
+  display: block;
+margin: auto;
+ width: 45%;
+ height:470px;
+ position: static;
+ margin-top:30px;
+}
+   .crew-pilot-right-section-img{
+    display: block;
+  margin: auto;
+   width: 50%;
+   height:60%;
+   position: static;
+   margin-top:50px;
+  }
+  .crew-engineer-right-section-img{
+    display: block;
+  margin: auto;
+   width: 60%;
+   height:auto;
+   position: static;
+   margin-top: 18px;
+  }
+  .crew-commander-img-mobile{
+    display: none;
+  }
+  /*technology*/
+
+  .technology-vehicle-main-menu, .technology-spaceport-main-menu, .technology-capsule-main-menu{
+    padding-top:0;
+  }
+
+  .technology-vehicle-menu-hr, .technology-spaceport-menu-hr, .technology-capsule-menu-hr  {
+    display:none;
+  }
+
+  .technology-vehicle-title, .technology-spaceport-title, .technology-capsule-title{
+    text-align: left;
+    padding: 0;
+    margin:0;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top:20px;
+    font-size: 20px;
+  }
+  .technology-vehicle-title-number, .technology-spaceport-title-number, .technology-capsule-title-number{
+    font-size: 20px;
+  }
+  .technology-vehicle-body, .technology-spaceport-body, .technology-capsule-body{
+        background-image: url("../assets/technology/background-technology-tablet.jpg")!important;
+  }
+
+
+  .technology-vehicle-container, .technology-capsule-container, .technology-spaceport-container{
+      flex-direction: column;
+      align-items: normal;
+      height:auto;
+      padding:0;
+      margin: 0;
+      left:0;
+  }
+
+  .technology-vehicle-left-section, .technology-spaceport-left-section, .technology-capsule-left-section{
+    position: sticky;
+    left:0;
+    width: 80%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  height: auto;
+
+
+  }
+  .technology-vehicle-left-section-h2, .technology-spaceport-left-section-h2, .technology-capsule-left-section-h2{
+margin-top:20px;
+    text-align: center;
+    font-size: 16px;
+    text-transform:uppercase;
+    letter-spacing: 0.1;
+  }
+  .technology-vehicle-left-section-header, .technology-spaceport-left-section-header, .technology-capsule-left-section-header{
+    width: auto;
+    font-size: 40px;
+    margin-top:20px;
+    text-align: center;
+  }
+  .technology-vehicle-left-section-paragraf, .technology-spaceport-left-section-paragraf, .technology-capsule-left-section-paragraf{
+
+  width: auto;
+    margin-top:20px;
+    text-align: center;
+    font-size: 16px;
+    color: #D0D6F9;
+  }
+  .technology-vehicle-left-section-bottomContainer, .technology-spaceport-left-section-bottomContainer, .technology-capsule-left-section-bottomContainer{
+  margin-top: 50px;
+
+  }
+  .technology-vehicle-right-section, .technology-spaceport-right-section, .technology-capsule-right-section{
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  position: static;
+  left:0;
+  display: block;
+  }
+  .technology-vehicle-right-section-img , .technology-spaceport-right-section-img, .technology-capsule-right-section-img{
+    display: block;
+  margin: auto;
+   width: 50%;
+   height:60%;
+   position: static;
+}
+.technology-vehicle-left-section-menu , .technology-spaceport-left-section-menu, .technology-capsule-left-section-menu{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top:20px;
+}
+.technology-vehicle-left-section-menu-a, .technology-spaceport-left-section-menu-a, .technology-capsule-left-section-menu-a{
+  padding: 10px;
+  margin:10px;
+}
+.technology-vehicle-img-landscale, .technology-spaceport-img-landscale, .technology-capsule-img-landscale{
+  display: block;
+  height:310px;
+}
+.technology-vehicle-right-section-img, .technology-spaceport-right-section-img, .technology-capsule-right-section-img {
+  display: none;
+}
+
+}
+@media (max-width: 375px)
+{/*burger menu 375px*/
+  .burger-menu-img{
+    display:block;
+    margin-right: 30px;
+  }
+  .burger-menu-close-img{
+    display: flex;
+    align-self: flex-end;
+    margin-top:40px;
+    margin-right: 30px;
+  }
+
+  .index-menu, .destination-moon-menu, .destination-mars-menu, .destination-titan-menu, .destination-europa-menu, .crew-commander-menu, .crew-specialist-menu, .crew-pilot-menu, .crew-engineer-menu, .technology-capsule-menu, .technology-spaceport-menu, .technology-vehicle-menu {
+    display: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    position: absolute;
+    margin:0;
+    right:0;
+    top:0;
+    width:65%;
+    height:500px;
+    padding:0;
+    align-items: flex-start;
+    z-index: 1;
+    backdrop-filter: blur(40px)!important;
+
+
+  }
+  .menu-items{
+
+    height: auto;
+    margin-top: 20px;
+    margin-left: 30px;
+
+  }
+  .link-hr{
+    margin-top: 5px;
+  }
+  .menu-links{
+    width:auto;
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  .menu-links-number{
+  display:inline-block;
+  }
+/*burger menu 375px*/
+
+/*index 375px*/
+
+  .index-main-menu{
+    padding-top: 0;
+
+  }
+  .index-menu-hr{
+    display:none;
+  }
+  .index-container{
+    flex-direction: column;
+    padding-bottom: 0;
+    padding-top:0;
+  }
+  .index-body{
+    background-image: url("../assets/home/background-home-mobile.jpg");
+  }
+  .index-left-section-h2 , .index-left-section-p, .index-left-section-h1{
+    text-align: center;
+  }
+.index-left-section-h2 {
+  color:var(--mikrosTitlos);
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  font-weight: bold;
+}
+.index-left-section-p{
+color: var(--para);
+font-size: 15px;
+line-height: 1.5;
+}
+.index-left-section-h1{
+  color:var(--titlos);
+  font-size: 80px;
+}
+  .index-left-section{
+    margin-top: 20px;
+    width:90%;
+    height:276px;
+  }
+  .index-menu {
+    backdrop-filter: blur(50px);
+    background-color: rgba(255,255,255,0.03);
+  }
+  .index-outer-right-section{
+    width:100%;
+    height:auto;
+  }
+  .index-right-section{
+    width:150px;
+    height:150px;
+  }
+  .index-right-section-paragraf{
+    font-size: 20px;
+    opacity: 0.8;
+
+  }
+  /*destination 375px*/
+
+
+
+  .destination-moon-menu,.destination-mars-menu, .destination-titan-menu, .destination-europa-menu{
+    display:none;
+  }
+
+  .destination-moon-main-menu, .destination-mars-main-menu, .destination-titan-main-menu, .destination-europa-main-menu{
+    padding-top:0;
+  }
+  .menu-links{
+    font-size: 14px;
+  }
+
+  .menu-items{
+    text-align: center;
+  }
+    .destination-moon-menu-hr, .destination-titan-menu-hr, .destination-mars-menu-hr, .destination-europa-menu-hr {
+      display:none;
+    }
+    .destination-moon-container, .destination-titan-container, .destination-mars-container, .destination-europa-container {
+        flex-direction: column;
+    }
+    .destination-moon-title, .destination-titan-title, .destination-mars-title, .destination-europa-title{
+      text-align: center;
+      padding: 0;
+      margin:0;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      margin-top:10px;
+      font-size: 18px;
+    }
+    .destination-moon-title-number, .destination-titan-title-number, .destination-mars-title-number, .destination-europa-title-number{
+      font-size: 16px;
+    }
+    .destination-moon-body, .destination-titan-body, .destination-mars-body, .destination-europa-body{
+          background-image: url("../assets/destination/background-destination-mobile.jpg")!important;
+    }
+    .destination-moon-container, .destination-titan-container, .destination-mars-container, .destination-europa-container{
+      padding:0;
+    }
+    .destination-moon-left-section, .destination-titan-left-section, .destination-mars-left-section, .destination-europa-left-section{
+        width:auto;
+        height:auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .destination-moon-img, .destination-titan-img, .destination-mars-img, .destination-europa-img{
+      width: 170px;
+      height:170px;
+    }
+
+      .destination-moon-right-section, .destination-titan-right-section,   .destination-mars-right-section,   .destination-europa-right-section{
+      text-align: center;
+      height: auto;
+    }
+    .destination-moon-right-section-nav, .destination-titan-right-section-nav, .destination-mars-right-section-nav, .destination-europa-right-section-nav{
+      margin: auto;
+      width:70%;
+    }
+    .destination-moon-right-section-nav-list, .destination-titan-right-section-nav-list, .destination-mars-right-section-nav-list, .destination-europa-right-section-nav-list{
+
+    }
+    .destination-moon-right-section-nav-list-items-links, .destination-titan-right-section-nav-list-items-links, .destination-mars-right-section-nav-list-items-links, .destination-europa-right-section-nav-list-items-links{
+      font-size: 14px;
+    }
+    .destination-moon-right-section-paragraf, .destination-titan-right-section-paragraf, .destination-mars-right-section-paragraf, .destination-europa-right-section-paragraf{
+      margin-top: 10px;
+      text-align: center;
+      font-size: 15px;
+      color: #D0D6F9;
+      opacity: 0.8;
+    }
+    .destination-moon-right-section, .destination-titan-right-section, .destination-mars-right-section, .destination-europa-right-section{
+      width: 80%;
+    }
+    .destination-moon-right-section-header, .destination-titan-right-section-header, .destination-mars-right-section-header, .destination-europa-right-section-header{
+      font-size: 56px;
+      margin-top: 0;
+    }
+    .destination-moon-right-section-horizontal, .destination-titan-right-section-horizontal, .destination-mars-right-section-horizontal, .destination-europa-right-section-horizontal{
+      border-color:#383B4B;
+      width:100%;
+      border-width: 3px;
+    }
+    .destination-moon-right-section-bottomContainer, .destination-titan-right-section-bottomContainer, .destination-mars-right-section-bottomContainer, .destination-europa-right-section-bottomContainer{
+      flex-direction: column;
+
+    }
+    .destination-moon-right-section-bottomContainer-left, .destination-titan-right-section-bottomContainer-left, .destination-mars-right-section-bottomContainer-left, .destination-europa-right-section-bottomContainer-left{
+      padding-right: 0;
+    }
+    .destination-moon-right-section-bottomContainer-left-para1, .destination-titan-right-section-bottomContainer-left-para1, .destination-mars-right-section-bottomContainer-left-para1, .destination-europa-right-section-bottomContainer-left-para1{
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .destination-moon-right-section-bottomContainer-left-para2,   .destination-titan-right-section-bottomContainer-left-para2,   .destination-mars-right-section-bottomContainer-left-para2,   .destination-europa-right-section-bottomContainer-left-para2{
+      margin-top: 10px;
+      font-size: 28px;}
+    .destination-moon-right-section-bottomContainer-right, .destination-titan-right-section-bottomContainer-right, .destination-mars-right-section-bottomContainer-right, .destination-europa-right-section-bottomContainer-right{
+      padding-left: 0;
+    }
+
+    .destination-moon-right-section-bottomContainer-right-para1, .destination-titan-right-section-bottomContainer-right-para1, .destination-mars-right-section-bottomContainer-right-para1, .destination-europa-right-section-bottomContainer-right-para1{
+      margin-top: 20px;
+      font-size: 14px;
+
+    }
+    .destination-moon-right-section-bottomContainer-right-para2, .destination-titan-right-section-bottomContainer-right-para2, .destination-mars-right-section-bottomContainer-right-para2, .destination-europa-right-section-bottomContainer-right-para2{
+      margin-top: 10px;
+      font-size: 28px;
+    }
+    /*crew 375px*/
+
+    .crew-commander-menu, .crew-specialist-menu, .crew-pilot-menu ,.crew-engineer-menu{
+      display: none;
+    }
+
+    .crew-commander-img-mobile,.crew-specialist-img-mobile,.crew-pilot-img-mobile,.crew-engineer-img-mobile{
+      display: block;
+      width:47%;
+      margin: auto;
+      margin-top:20px;
+    }
+    .crew-commander-hr-mobile,.crew-specialist-hr-mobile,.crew-pilot-hr-mobile,.crew-engineer-hr-mobile{
+      display: block;
+      margin:0;
+      padding:0;
+      border-width: 1px;
+      border-left:none;
+      border-right:none;
+      border-bottom:none;
+    }
+    .crew-commander-main-menu, .crew-specialist-main-menu , .crew-pilot-main-menu, .crew-engineer-main-menu {
+      padding-top:0;
+    }
+
+      .crew-commander-menu-hr, .crew-specialist-menu-hr, .crew-pilot-menu-hr, .crew-engineer-menu-hr   {
+        display:none;
+      }
+      .crew-commander-title, .crew-specialist-title, .crew-pilot-title, .crew-engineer-title{
+        text-align: left;
+        padding: 0;
+        margin:0;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top:0px;
+        font-size: 16px;
+
+      }
+      .crew-commander-title-number, .crew-specialist-title-number, .crew-pilot-title-number, .crew-engineer-title-number{
+        font-size: 16px;
+      }
+      .crew-commander-body, .crew-specialist-body, .crew-pilot-body, .crew-engineer-body{
+            background-image: url("../assets/crew/background-crew-mobile.jpg")!important;
+      }
+
+
+      .crew-commander-container,  .crew-specialist-container,   .crew-pilot-container,   .crew-engineer-container{
+          flex-direction: column;
+          align-items: normal;
+          height:auto;
+          padding:0;
+          margin: 0;
+          left:0;
+          width: 95%;
+          margin: auto;
+
+      }
+
+      .crew-commander-left-section, .crew-specialist-left-section, .crew-pilot-left-section, .crew-engineer-left-section{
+        position: sticky;
+        left:0;
+        width: auto;
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    height: auto;
+
+
+      }
+      .crew-commander-left-section-h2, .crew-specialist-left-section-h2, .crew-pilot-left-section-h2, .crew-engineer-left-section-h2{
+      margin:0;
+        text-align: center;
+        font-size: 16px;
+        text-transform:uppercase;
+        letter-spacing: 2px;;
+        order:2;
+
+      }
+      .crew-commander-left-section-header, .crew-specialist-left-section-header, .crew-pilot-left-section-header, .crew-engineer-left-section-header{
+        width: auto;
+        font-size: 24px;
+        margin-top:10px;
+        text-align: center;
+order:3;
+      }
+      .crew-commander-left-section-paragraf,.crew-specialist-left-section-paragraf, .crew-pilot-left-section-paragraf,.crew-engineer-left-section-paragraf{
+
+      width: auto;
+        margin-top: 15px;
+        text-align: center;
+        font-size: 15px;
+        color: #D0D6F9;
+        order:4;
+        opacity: 0.8;
+      }
+      .crew-commander-left-section-bottomContainer, .crew-pilot-left-section-bottomContainer, .crew-specialist-left-section-bottomContainer, .crew-engineer-left-section-bottomContainer{
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+      }
+      .crew-commander-left-section-bottomContainer, .crew-specialist-left-section-bottomContainer, .crew-pilot-left-section-bottomContainer ,.crew-engineer-left-section-bottomContainer{
+        order:1;
+        width:120px;
+      }
+
+
+
+      .crew-commander-right-section, .crew-specialist-right-section, .crew-pilot-right-section, .crew-engineer-right-section{
+        width: auto;
+        height: auto;
+        position: static;
+        left:0;
+        display: none;
+      }
+
+
+
+
+
+
+      .crew-commander-right-section-img{
+
+      margin: auto;
+       width: 50%;
+       height:60%;
+       position: static;
+
+
+    }
+    .crew-specialist-right-section-img{
+      display: block;
+    margin: auto;
+     width: 45%;
+     height:470px;
+     position: static;
+     margin-top:30px;
+    }
+       .crew-pilot-right-section-img{
+        display: block;
+      margin: auto;
+       width: 50%;
+       height:60%;
+       position: static;
+       margin-top:50px;
+      }
+      .crew-engineer-right-section-img{
+        display: block;
+      margin: auto;
+       width: 60%;
+       height:auto;
+       position: static;
+       margin-top: 18px;
+      }
+      .crew-commander-right-section-img{
+        display: none;
+      }
+      /*technology 375px*/
+        .technology-vehicle-menu, .technology-spaceport-menu ,.technology-capsule-menu{
+          display:none;
+        }
+        .technology-vehicle-main-menu, .technology-spaceport-main-menu, .technology-capsule-main-menu{
+          padding-top:0;
+        }
+
+        .technology-vehicle-menu-hr, .technology-spaceport-menu-hr, .technology-capsule-menu-hr  {
+          display:none;
+        }
+
+        .technology-vehicle-title, .technology-spaceport-title, .technology-capsule-title{
+          text-align: center;
+          padding: 0;
+          margin:0;
+          margin-left: 0;
+          margin-bottom: 30px;
+          margin-top:0px;
+          font-size: 16px;
+          letter-spacing: 2px;
+        }
+        .technology-vehicle-title-number, .technology-spaceport-title-number, .technology-capsule-title-number{
+          font-size: 16px;
+        }
+        .technology-vehicle-body, .technology-spaceport-body, .technology-capsule-body{
+              background-image: url("../assets/technology/background-technology-mobile.jpg")!important;
+        }
+
+
+        .technology-vehicle-container, .technology-capsule-container, .technology-spaceport-container{
+            flex-direction: column;
+            align-items: normal;
+            height:auto;
+            padding:0;
+            margin: 0;
+            left:0;
+        }
+
+        .technology-vehicle-left-section, .technology-spaceport-left-section, .technology-capsule-left-section{
+          position: sticky;
+          left:0;
+          width: 95%;
+          margin:auto;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        height: auto;
+
+
+        }
+        .technology-vehicle-left-section-h2, .technology-spaceport-left-section-h2, .technology-capsule-left-section-h2{
+      margin-top:20px;
+          text-align: center;
+          font-size: 14px;
+          text-transform:uppercase;
+          letter-spacing: 0.1;
+        }
+        .technology-vehicle-left-section-header, .technology-spaceport-left-section-header, .technology-capsule-left-section-header{
+          width: auto;
+          font-size: 24px;
+          margin-top:10px;
+          text-align: center;
+        }
+        .technology-vehicle-left-section-paragraf, .technology-spaceport-left-section-paragraf, .technology-capsule-left-section-paragraf{
+text-align: center;
+        width: auto;
+          margin-top:20px;
+          text-align: center;
+          font-size: 15px;
+          color: #D0D6F9;
+          line-height: 1.5;
+          opacity: 0.8;
+        }
+        .technology-vehicle-left-section-bottomContainer, .technology-spaceport-left-section-bottomContainer, .technology-capsule-left-section-bottomContainer{
+        margin-top: 50px;
+
+        }
+        .technology-vehicle-right-section, .technology-spaceport-right-section, .technology-capsule-right-section{
+        width: auto;
+        height: auto;
+        margin-top: 50px;
+        position: static;
+        left:0;
+        display: block;
+        }
+        .technology-vehicle-right-section-img , .technology-spaceport-right-section-img, .technology-capsule-right-section-img{
+          display: block;
+        margin: auto;
+         width: 50%;
+         height:60%;
+         position: static;
+      }
+      .technology-vehicle-left-section-menu , .technology-spaceport-left-section-menu, .technology-capsule-left-section-menu{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-top:20px;
+      }
+      .technology-vehicle-left-section-menu-a, .technology-spaceport-left-section-menu-a, .technology-capsule-left-section-menu-a{
+        padding: 5px;
+        margin:10px;
+      }
+      .technology-vehicle-img-landscale, .technology-spaceport-img-landscale, .technology-capsule-img-landscale{
+        display: block;
+        height:170px;
+      }
+      .technology-vehicle-right-section-img, .technology-spaceport-right-section-img, .technology-capsule-right-section-img {
+        display: none;
+      }
+
+}
