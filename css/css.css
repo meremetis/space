@@ -2937,7 +2937,7 @@ margin-top:20px;
 }
 
 }
-@media (max-width: 450px)
+@media (max-width: 600px)
 {/*burger menu 375px*/
   .burger-menu-img{
     display:block;
@@ -3035,12 +3035,15 @@ line-height: 1.5;
     background-color: rgba(255,255,255,0.03);
   }
   .index-outer-right-section{
-    width:100%;
-    height:auto;
+    width:250px;
+    height:250px !important;
+
+    margin-top: 50px;
   }
   .index-right-section{
     width:150px;
     height:150px;
+    margin-top: 50px;
   }
   .index-right-section-paragraf{
     font-size: 20px;
